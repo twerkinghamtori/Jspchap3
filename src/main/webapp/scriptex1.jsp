@@ -22,7 +22,7 @@
 </html>
 <%! //선언문
    String msg1 = "선언문으로 선언한 msg 변수"; //msg1 -> 지역변수x, 멤버변수o
-   String getMsg() { //서블릿 클래스의 멤버 메서드
+   String getMsg() { //서블릿 클래스의 멤버 메서드. 서블릿의 jsp_service함수에 들어가는 부분인데, 메서드 안에 메서드가 들어갈 수 없으니까 선언문으로 따로 뺴는거임
 	   return msg1;
    }
 %>
